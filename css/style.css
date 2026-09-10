@@ -10,12 +10,12 @@
   --lavender-dark: #6f6088;
   --wheat: #c7a45f;
   --wheat-dark: #a9853f;
-  --cream: #faf7f0;
-  --cream-dark: #f1e9d8;
+  --cream: #fffefc;
+  --cream-dark: #f6f3f4;
   --ink: #35342d;
   --ink-soft: #6b6a5f;
   --white: #ffffff;
-  --line: #e6dfcb;
+  --line: #e9e4e6;
 
   --font-display: 'Cormorant Garamond', 'Times New Roman', serif;
   --font-body: 'Jost', 'Helvetica Neue', Arial, sans-serif;
@@ -392,9 +392,9 @@ img { max-width: 100%; display: block; }
 .timeline::before {
   content: '';
   position: absolute;
-  left: 78px;
-  top: 6px;
-  bottom: 6px;
+  left: 98px;
+  top: 10px;
+  bottom: 10px;
   width: 1px;
   background: var(--line);
 }
@@ -402,8 +402,8 @@ img { max-width: 100%; display: block; }
 .timeline-item {
   display: flex;
   gap: 24px;
-  align-items: flex-start;
-  padding: 14px 0;
+  align-items: center;
+  padding: 10px 0;
 }
 
 .timeline-time {
@@ -413,23 +413,28 @@ img { max-width: 100%; display: block; }
   font-family: var(--font-display);
   font-size: 19px;
   color: var(--wheat-dark);
-  padding-top: 1px;
 }
 
-.timeline-dot {
-  width: 9px;
-  height: 9px;
+.timeline-icon {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background: var(--sage);
-  margin-top: 8px;
+  background: var(--white);
+  border: 1px solid var(--sage-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
   flex-shrink: 0;
   position: relative;
   z-index: 1;
+  box-shadow: var(--shadow);
 }
 
 .timeline-label {
   font-size: 16px;
-  padding-top: 1px;
+  font-weight: 500;
+  color: var(--sage-dark);
 }
 
 /* ---------- rsvp ---------- */
@@ -604,6 +609,64 @@ img { max-width: 100%; display: block; }
 .tab-panel ul { margin: 0 0 1em; padding-left: 20px; }
 .tab-panel li { margin-bottom: 4px; }
 
+/* ---------- stay / hotels ---------- */
+
+.stay-place {
+  max-width: 760px;
+  margin: 0 auto 48px;
+}
+.stay-place:last-child { margin-bottom: 0; }
+
+.stay-place h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stay-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.stay-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 26px;
+}
+
+.stay-tier {
+  display: inline-block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+}
+.stay-tier.high { background: #f1e9d8; color: var(--wheat-dark); }
+.stay-tier.low { background: #eef0e7; color: var(--sage-dark); }
+
+.stay-card h4 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  color: var(--ink);
+  margin: 0 0 6px;
+}
+
+.stay-card p {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+}
+
+.stay-card a.stay-link {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 /* ---------- dress code / gift ---------- */
 
 .prose {
@@ -730,6 +793,7 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 860px) {
   .details-grid { grid-template-columns: 1fr; }
+  .stay-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 720px) {
