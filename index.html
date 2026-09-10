@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Domenica & Antonio — 25 Settembre 2027</title>
+<meta name="description" content="Il matrimonio di Domenica e Antonio, 25 Settembre 2027, Tenuta Sei Ore, Gambara (BS).">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#hero" class="logo">D &amp; A</a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#details" data-i18n="nav.details">Dettagli</a>
+      <a href="#program" data-i18n="nav.program">Programma</a>
+      <a href="#rsvp" data-i18n="nav.rsvp">RSVP</a>
+      <a href="#travel" data-i18n="nav.travel">Come arrivare</a>
+      <a href="#dresscode" data-i18n="nav.dresscode">Dress code</a>
+      <a href="#gift" data-i18n="nav.gift">Regalo</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-lang="it" class="active">IT</button>
+        <button type="button" data-lang="es">ES</button>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section id="hero" class="hero">
+    <svg class="hero-deco top-left" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 190 C 40 140, 30 90, 60 40 C 75 15, 100 5, 120 10" stroke="#a9b596" stroke-width="2"/>
+      <path d="M30 150 C 50 145, 60 130, 55 115" stroke="#a9b596" stroke-width="1.5"/>
+      <path d="M45 110 C 65 108, 78 95, 75 78" stroke="#a9b596" stroke-width="1.5"/>
+      <path d="M60 70 C 80 68, 92 55, 90 38" stroke="#a9b596" stroke-width="1.5"/>
+      <circle cx="118" cy="12" r="4" fill="#c17f4e"/>
+      <circle cx="58" cy="113" r="3" fill="#c17f4e"/>
+      <circle cx="73" cy="76" r="3" fill="#c17f4e"/>
+    </svg>
+    <svg class="hero-deco bottom-right" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 190 C 40 140, 30 90, 60 40 C 75 15, 100 5, 120 10" stroke="#a9b596" stroke-width="2"/>
+      <path d="M30 150 C 50 145, 60 130, 55 115" stroke="#a9b596" stroke-width="1.5"/>
+      <path d="M45 110 C 65 108, 78 95, 75 78" stroke="#a9b596" stroke-width="1.5"/>
+      <path d="M60 70 C 80 68, 92 55, 90 38" stroke="#a9b596" stroke-width="1.5"/>
+      <circle cx="118" cy="12" r="4" fill="#c17f4e"/>
+      <circle cx="58" cy="113" r="3" fill="#c17f4e"/>
+      <circle cx="73" cy="76" r="3" fill="#c17f4e"/>
+    </svg>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow" data-i18n="hero.eyebrow">Ci sposiamo</div>
+      <h1 class="hero-names">Domenica<span class="hero-and">&amp;</span>Antonio</h1>
+      <div class="hero-date" data-i18n="hero.date">Sabato, 25 Settembre 2027 · Gambara (BS), Italia</div>
+      <p class="hero-text" data-i18n-html="hero.text.html">Siamo davvero emozionati di avervi con noi per il nostro matrimonio!</p>
+      <div class="hero-actions">
+        <a href="#rsvp" class="btn" data-i18n="hero.cta.rsvp">Conferma la tua presenza</a>
+        <button type="button" class="btn btn-outline" id="addToCalendar" data-i18n="hero.cta.calendar">Aggiungi al calendario</button>
+      </div>
+
+      <div class="countdown" id="countdown" aria-live="polite">
+        <div class="countdown-item"><span class="countdown-num" id="cd-days">–</span><span class="countdown-label" data-i18n="countdown.days">Giorni</span></div>
+        <div class="countdown-item"><span class="countdown-num" id="cd-hours">–</span><span class="countdown-label" data-i18n="countdown.hours">Ore</span></div>
+        <div class="countdown-item"><span class="countdown-num" id="cd-minutes">–</span><span class="countdown-label" data-i18n="countdown.minutes">Minuti</span></div>
+        <div class="countdown-item"><span class="countdown-num" id="cd-seconds">–</span><span class="countdown-label" data-i18n="countdown.seconds">Secondi</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="details" class="section">
+    <div class="container">
+      <div class="eyebrow" style="text-align:center" data-i18n="details.eyebrow">Save the date</div>
+      <h2 class="section-heading" data-i18n="details.heading">Quando e dove</h2>
+      <div class="section-sub" style="margin-bottom:40px"></div>
+
+      <div class="details-grid">
+        <div class="detail-card">
+          <div class="icon">📅</div>
+          <h3 data-i18n="details.when.title">Quando</h3>
+          <p class="big" data-i18n="details.when.big">Sabato, 25 Settembre 2027</p>
+          <p data-i18n="details.when.sub">Arrivo ospiti ore 14:00</p>
+        </div>
+        <div class="detail-card">
+          <div class="icon">📍</div>
+          <h3 data-i18n="details.where.title">Dove</h3>
+          <p class="big" data-i18n="details.where.big">Tenuta Sei Ore</p>
+          <p data-i18n="details.where.sub">Cascina S. Orio, 14, 25020 Gambara BS, Italia</p>
+          <p><a href="https://www.tenutaseiore.it/" target="_blank" rel="noopener" data-i18n="details.where.link">Vedi il sito della location ↗</a></p>
+        </div>
+      </div>
+
+      <div class="map-embed">
+        <iframe
+          src="https://www.google.com/maps?q=Cascina+S.+Orio,+14,+25020+Gambara+BS,+Italia&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Mappa Tenuta Sei Ore, Gambara">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="program" class="section section-alt">
+    <div class="container">
+      <div class="eyebrow" style="text-align:center" data-i18n="program.eyebrow">La giornata</div>
+      <h2 class="section-heading" data-i18n="program.heading">Programma</h2>
+      <div style="height:40px"></div>
+
+      <div class="timeline">
+        <div class="timeline-item"><div class="timeline-time">14:00</div><div class="timeline-dot"></div><div class="timeline-label" data-i18n="program.1">Arrivo ospiti</div></div>
+        <div class="timeline-item"><div class="timeline-time">14:15</div><div class="timeline-dot"></div><div class="timeline-label" data-i18n="program.2">Cerimonia</div></div>
+        <div class="timeline-item"><div class="timeline-time">15:00</div><div class="timeline-dot"></div><div class="timeline-label" data-i18n="program.3">Aperitivo</div></div>
+        <div class="timeline-item"><div class="timeline-time">17:00</div><div class="timeline-dot"></div><div class="timeline-label" data-i18n="program.4">Cena</div></div>
+        <div class="timeline-item"><div class="timeline-time">19:00</div><div class="timeline-dot"></div><div class="timeline-label" data-i18n="program.5">Balli popolari</div></div>
+        <div class="timeline-item"><div class="timeline-time">20:00</div><div class="timeline-dot"></div><div class="timeline-label" data-i18n="program.6">Torta</div></div>
+        <div class="timeline-item"><div class="timeline-time">20:30</div><div class="timeline-dot"></div><div class="timeline-label" data-i18n="program.7">Dj set</div></div>
+        <div class="timeline-item"><div class="timeline-time">01:00</div><div class="timeline-dot"></div><div class="timeline-label" data-i18n="program.8">Fine</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="rsvp" class="section">
+    <div class="container">
+      <div class="eyebrow" style="text-align:center" data-i18n="rsvp.eyebrow">Non vediamo l'ora</div>
+      <h2 class="section-heading" data-i18n="rsvp.heading">Confermate la vostra presenza</h2>
+      <p class="rsvp-deadline" data-i18n="rsvp.deadline">Vi chiediamo gentilmente di iscrivervi entro il 30 Giugno 2027</p>
+
+      <form class="rsvp-form" id="rsvpForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstname" data-i18n="rsvp.firstname">Nome</label>
+            <input type="text" id="firstname" name="firstname" required>
+          </div>
+          <div class="form-group">
+            <label for="lastname" data-i18n="rsvp.lastname">Cognome</label>
+            <input type="text" id="lastname" name="lastname" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email" data-i18n="rsvp.email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label data-i18n="rsvp.attending">Parteciperai?</label>
+          <div class="attending-toggle">
+            <label>
+              <input type="radio" name="attending" value="Sì" checked>
+              <span data-i18n="rsvp.attending.yes">Sì, ci sarò 🎉</span>
+            </label>
+            <label>
+              <input type="radio" name="attending" value="No">
+              <span data-i18n="rsvp.attending.no">Non potrò esserci</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="guests" data-i18n="rsvp.guests">In quanti siete (incluso te)?</label>
+          <select id="guests" name="guests">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6+">6+</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="children" data-i18n="rsvp.children">Ci sono bambini tra gli invitati? Se sì, quanti e di che età?</label>
+          <input type="text" id="children" name="children">
+        </div>
+
+        <div class="form-group">
+          <label for="allergies" data-i18n="rsvp.allergies">Avete allergie o intolleranze alimentari?</label>
+          <input type="text" id="allergies" name="allergies">
+        </div>
+
+        <div class="form-group">
+          <label for="notes" data-i18n="rsvp.notes">Altre esigenze, richieste o comunicazioni?</label>
+          <textarea id="notes" name="notes"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-block" id="rsvpSubmit" data-i18n="rsvp.submit">Invia</button>
+        <div class="form-status" id="rsvpStatus"></div>
+      </form>
+    </div>
+  </section>
+
+  <section id="travel" class="section section-alt">
+    <div class="container">
+      <div class="eyebrow" style="text-align:center" data-i18n="travel.eyebrow">Organizza il viaggio</div>
+      <h2 class="section-heading" data-i18n="travel.heading">Come arrivare</h2>
+      <p class="section-intro" data-i18n="travel.intro">Se avete bisogno di aiuto per trovare hotel o un mezzo di trasporto non esitate a contattarci.</p>
+
+      <div class="travel-block">
+        <h3 data-i18n="travel.leg1.title">Da Milano a Brescia</h3>
+        <div class="tabs" data-tabgroup="leg1">
+          <button class="tab-btn active" data-tab="leg1-car" data-i18n="travel.tab.car">In auto</button>
+          <button class="tab-btn" data-tab="leg1-bus" data-i18n="travel.tab.bus">In bus</button>
+          <button class="tab-btn" data-tab="leg1-train" data-i18n="travel.tab.train">In treno</button>
+        </div>
+        <div class="tab-panel active" id="leg1-car" data-i18n-html="travel.car.html"></div>
+        <div class="tab-panel" id="leg1-bus" data-i18n-html="travel.bus.html"></div>
+        <div class="tab-panel" id="leg1-train" data-i18n-html="travel.train.html"></div>
+      </div>
+
+      <div class="travel-block">
+        <h3 data-i18n="travel.leg2.title">Da Brescia alla location</h3>
+        <div class="tabs" data-tabgroup="leg2">
+          <button class="tab-btn active" data-tab="leg2-car" data-i18n="travel.tab.car">In auto</button>
+          <button class="tab-btn" data-tab="leg2-bus" data-i18n="travel.tab.bus">In bus</button>
+          <button class="tab-btn" data-tab="leg2-train" data-i18n="travel.tab.train">In treno</button>
+        </div>
+        <div class="tab-panel active" id="leg2-car" data-i18n-html="travel.leg2.car.html"></div>
+        <div class="tab-panel" id="leg2-bus" data-i18n-html="travel.leg2.bus.html"></div>
+        <div class="tab-panel" id="leg2-train" data-i18n-html="travel.leg2.train.html"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="dresscode" class="section">
+    <div class="container">
+      <div class="eyebrow" style="text-align:center" data-i18n="dresscode.eyebrow">Come vestirsi</div>
+      <h2 class="section-heading" data-i18n="dresscode.heading">Dress code</h2>
+      <div class="prose" style="text-align:center; margin-top:32px">
+        <p data-i18n="dresscode.p1"></p>
+        <p data-i18n="dresscode.p2"></p>
+        <p data-i18n="dresscode.p3"></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gift" class="section section-alt">
+    <div class="container">
+      <div class="eyebrow" style="text-align:center" data-i18n="gift.eyebrow">Se proprio volete</div>
+      <h2 class="section-heading" data-i18n="gift.heading">Regalo di matrimonio</h2>
+      <div class="prose" style="text-align:center; margin-top:32px">
+        <p data-i18n="gift.p1"></p>
+        <p data-i18n-html="gift.p2"></p>
+        <p data-i18n="gift.p3"></p>
+      </div>
+
+      <div class="gift-card">
+        <h3 data-i18n="gift.card.title">Siamo Al Verde</h3>
+        <div class="gift-sub" data-i18n="gift.card.sub">Organizzazione di volontariato — Brescia</div>
+        <p data-i18n="gift.card.desc"></p>
+        <div class="iban-row">
+          <code id="ibanCode">IT42 B086 9211 2040 2500 0254 258</code>
+          <button type="button" class="copy-btn" id="copyIban" data-i18n="gift.iban.copy">Copia</button>
+        </div>
+        <p style="margin-top:10px; font-size:13px; color:var(--ink-soft)">BIC: CCRTIT2TH00</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <h3 data-i18n="footer.heading">Domenica &amp; Antonio</h3>
+  <p data-i18n="footer.text">Per info e domande scriveteci pure:</p>
+  <div class="footer-contacts">
+    <a href="mailto:domi.bug@libero.it">domi.bug@libero.it</a>
+    <a href="mailto:antonio_ga92@hotmail.com">antonio_ga92@hotmail.com</a>
+  </div>
+  <div class="footer-credit" data-i18n-html="footer.credit.html">Fatto con 💛 per Domenica e Antonio</div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

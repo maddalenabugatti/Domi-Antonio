@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wedding-site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4173", "--directory", "/Users/maddalenabugatti/Desktop/domenica-e-antonio-wedding"],
+      "port": 4173
+    }
+  ]
+}
