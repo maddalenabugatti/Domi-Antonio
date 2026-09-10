@@ -3,17 +3,19 @@
    ============================================================ */
 
 :root {
-  --sage: #6f7d5d;
-  --sage-dark: #55614a;
-  --sage-light: #a9b596;
-  --terracotta: #c17f4e;
-  --terracotta-dark: #a8683b;
-  --cream: #faf6ef;
-  --cream-dark: #f1e9db;
+  --sage: #5f6b46;
+  --sage-dark: #454e33;
+  --sage-light: #9aa47c;
+  --lavender: #8b7ba8;
+  --lavender-dark: #6f6088;
+  --wheat: #c7a45f;
+  --wheat-dark: #a9853f;
+  --cream: #faf7f0;
+  --cream-dark: #f1e9d8;
   --ink: #35342d;
   --ink-soft: #6b6a5f;
   --white: #ffffff;
-  --line: #e3dbc8;
+  --line: #e6dfcb;
 
   --font-display: 'Cormorant Garamond', 'Times New Roman', serif;
   --font-body: 'Jost', 'Helvetica Neue', Arial, sans-serif;
@@ -49,7 +51,7 @@ h1, h2, h3, h4 {
 
 p { margin: 0 0 1em; }
 
-a { color: var(--terracotta); text-decoration: none; }
+a { color: var(--lavender); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 img { max-width: 100%; display: block; }
@@ -74,7 +76,7 @@ img { max-width: 100%; display: block; }
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 13px;
-  color: var(--terracotta);
+  color: var(--lavender);
   font-weight: 500;
   margin-bottom: 12px;
 }
@@ -183,7 +185,7 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.main-nav a:hover { color: var(--terracotta); text-decoration: none; }
+.main-nav a:hover { color: var(--lavender); text-decoration: none; }
 
 .header-actions {
   display: flex;
@@ -259,7 +261,7 @@ img { max-width: 100%; display: block; }
   text-transform: uppercase;
   letter-spacing: 0.25em;
   font-size: 13px;
-  color: var(--terracotta);
+  color: var(--lavender);
   margin-bottom: 22px;
 }
 
@@ -272,7 +274,7 @@ img { max-width: 100%; display: block; }
 .hero-and {
   font-family: var(--font-display);
   font-style: italic;
-  color: var(--terracotta);
+  color: var(--lavender);
   font-size: 22px;
   display: block;
   margin: 2px 0;
@@ -322,7 +324,7 @@ img { max-width: 100%; display: block; }
 .countdown-num {
   font-family: var(--font-display);
   font-size: 32px;
-  color: var(--sage-dark);
+  color: var(--wheat-dark);
   display: block;
   line-height: 1;
 }
@@ -357,7 +359,7 @@ img { max-width: 100%; display: block; }
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 14px;
-  color: var(--terracotta);
+  color: var(--lavender);
   font-family: var(--font-body);
   font-weight: 600;
 }
@@ -410,7 +412,7 @@ img { max-width: 100%; display: block; }
   text-align: right;
   font-family: var(--font-display);
   font-size: 19px;
-  color: var(--terracotta);
+  color: var(--wheat-dark);
   padding-top: 1px;
 }
 
@@ -434,7 +436,7 @@ img { max-width: 100%; display: block; }
 
 .rsvp-deadline {
   text-align: center;
-  color: var(--terracotta);
+  color: var(--lavender);
   font-weight: 500;
   margin-bottom: 40px;
 }
@@ -594,7 +596,7 @@ img { max-width: 100%; display: block; }
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 0.06em;
-  color: var(--terracotta);
+  color: var(--lavender);
   margin: 18px 0 6px;
 }
 .tab-panel h4:first-child { margin-top: 0; }
@@ -627,12 +629,38 @@ img { max-width: 100%; display: block; }
 }
 
 .gift-card .gift-sub {
-  color: var(--terracotta);
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+  color: var(--lavender-dark);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 17px;
   margin-bottom: 18px;
 }
+
+.gift-card p { color: var(--ink-soft); }
+.gift-card p:last-of-type { margin-bottom: 0; }
+
+.gift-social {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0 26px;
+}
+
+.gift-social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--sage-light);
+  border-radius: 999px;
+  padding: 7px 16px;
+  font-size: 13px;
+  color: var(--sage-dark);
+}
+.gift-social a:hover {
+  background: var(--sage);
+  color: var(--white);
+  text-decoration: none;
+}
+.gift-social svg { width: 15px; height: 15px; fill: currentColor; }
 
 .iban-row {
   display: flex;
