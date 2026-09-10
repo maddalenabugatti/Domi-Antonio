@@ -236,6 +236,51 @@
     });
   }
 
+  /* ---------------- stay map ---------------- */
+
+  var STAY_MARKERS = [
+    { name: "Tenuta Sei Ore", tier: "venue", lat: 45.2552, lng: 10.2934, url: "https://www.tenutaseiore.it/" },
+    { name: "Le Magnolie Agriturismo", tier: "high", lat: 45.3261, lng: 10.0759, url: "https://lemagnolieagriturismo.it" },
+    { name: "Hotel Gambara", tier: "low", lat: 45.2559, lng: 10.2931, url: "https://www.hotelgambara.com" },
+    { name: "Hotel Vittoria", tier: "high", lat: 45.5383, lng: 10.2201, url: "https://www.hotelvittoria.com" },
+    { name: "Albergo Orologio", tier: "low", lat: 45.5397, lng: 10.2214, url: "https://www.albergoorologio.it" },
+    { name: "Hotel Estée", tier: "high", lat: 45.4673, lng: 10.5461, url: "https://www.hotelestee.it" },
+    { name: "Hotel Piroscafo", tier: "low", lat: 45.4712, lng: 10.5403, url: "https://hotelpiroscafo.it" }
+  ];
+
+  var TIER_COLORS = { venue: "#8b7ba8", high: "#c7a45f", low: "#5f6b46" };
+
+  function initStayMap() {
+    var el = document.getElementById("stayMap");
+    if (!el || typeof L === "undefined") return;
+
+    var map = L.map(el, { scrollWheelZoom: false });
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: "&copy; OpenStreetMap contributors",
+      maxZoom: 18
+    }).addTo(map);
+
+    var group = [];
+    STAY_MARKERS.forEach(function (m) {
+      var marker = L.circleMarker([m.lat, m.lng], {
+        radius: m.tier === "venue" ? 10 : 8,
+        weight: 2,
+        color: "#fff",
+        fillColor: TIER_COLORS[m.tier],
+        fillOpacity: 0.95
+      }).addTo(map);
+
+      marker.bindPopup(
+        '<strong>' + m.name + '</strong>' +
+        '<a href="' + m.url + '" target="_blank" rel="noopener">' + m.url.replace(/^https?:\/\//, "").replace(/\/$/, "") + ' ↗</a>'
+      );
+      group.push(marker);
+    });
+
+    var bounds = L.featureGroup(group).getBounds();
+    map.fitBounds(bounds, { padding: [30, 30] });
+  }
+
   /* ---------------- init ---------------- */
 
   document.addEventListener("DOMContentLoaded", function () {
@@ -246,5 +291,6 @@
     initTabs();
     initCopyIban();
     initRsvpForm();
+    initStayMap();
   });
 })();
