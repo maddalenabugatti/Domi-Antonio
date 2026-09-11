@@ -22,6 +22,11 @@
       if (dict[key] !== undefined) el.innerHTML = dict[key];
     });
 
+    document.querySelectorAll("[data-i18n-placeholder]").forEach(function (el) {
+      var key = el.getAttribute("data-i18n-placeholder");
+      if (dict[key] !== undefined) el.setAttribute("placeholder", dict[key]);
+    });
+
     document.querySelectorAll(".lang-switch button").forEach(function (btn) {
       btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
     });
@@ -135,6 +140,31 @@
     });
   }
 
+  /* ---------------- rsvp: extra guest names ---------------- */
+
+  function updateExtraGuestsVisibility() {
+    var select = document.getElementById("guests");
+    var group = document.getElementById("extraGuestsGroup");
+    var field = document.getElementById("extraGuestNames");
+    if (!select || !group || !field) return;
+
+    var show = select.value !== "1";
+    group.hidden = !show;
+    if (show) {
+      field.setAttribute("required", "required");
+    } else {
+      field.removeAttribute("required");
+      field.value = "";
+    }
+  }
+
+  function initExtraGuestsToggle() {
+    var select = document.getElementById("guests");
+    if (!select) return;
+    select.addEventListener("change", updateExtraGuestsVisibility);
+    updateExtraGuestsVisibility();
+  }
+
   /* ---------------- travel tabs ---------------- */
 
   function initTabs() {
@@ -208,6 +238,7 @@
         email: data.get("email") || "",
         attending: data.get("attending") || "",
         guests: data.get("guests") || "",
+        extraGuestNames: data.get("extraGuestNames") || "",
         children: data.get("children") || "",
         allergies: data.get("allergies") || "",
         notes: data.get("notes") || "",
@@ -226,6 +257,7 @@
         status.textContent = dict["rsvp.success"];
         status.className = "form-status success";
         form.reset();
+        updateExtraGuestsVisibility();
       }).catch(function () {
         status.textContent = dict["rsvp.error"];
         status.className = "form-status error";
@@ -291,6 +323,7 @@
     initTabs();
     initCopyIban();
     initRsvpForm();
+    initExtraGuestsToggle();
     initStayMap();
   });
 })();

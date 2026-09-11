@@ -15,7 +15,7 @@ function doPost(e) {
   if (sheet.getLastRow() === 0) {
     sheet.appendRow([
       "Data invio", "Nome", "Cognome", "Email", "Partecipa",
-      "N. persone", "Bambini", "Allergie", "Note", "Lingua"
+      "N. persone", "Nomi altri ospiti", "Bambini", "Allergie", "Note", "Lingua"
     ]);
   }
 
@@ -28,6 +28,7 @@ function doPost(e) {
     data.email || "",
     data.attending || "",
     data.guests || "",
+    data.extraGuestNames || "",
     data.children || "",
     data.allergies || "",
     data.notes || "",
