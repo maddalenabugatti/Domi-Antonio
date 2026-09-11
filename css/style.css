@@ -714,56 +714,37 @@ img { max-width: 100%; display: block; }
 .prose strong { color: var(--sage-dark); }
 
 .gift-card {
-  max-width: 680px;
+  max-width: 480px;
   margin: 40px auto 0;
   background: var(--white);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 34px;
-}
-
-.gift-card h3 {
-  font-size: 22px;
-  margin-bottom: 4px;
-}
-
-.gift-card .gift-sub {
-  color: var(--lavender-dark);
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 17px;
-  margin-bottom: 18px;
+  text-align: center;
 }
 
 .gift-card p { color: var(--ink-soft); }
 .gift-card p:last-of-type { margin-bottom: 0; }
 
-.gift-social {
-  display: flex;
-  gap: 10px;
-  margin: 20px 0 26px;
+.gift-holder {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--lavender-dark);
+  margin-bottom: 4px;
 }
 
-.gift-social a {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  border: 1px solid var(--sage-light);
-  border-radius: 999px;
-  padding: 7px 16px;
-  font-size: 13px;
+.gift-holder-name {
+  font-family: var(--font-display);
+  font-size: 24px;
   color: var(--sage-dark);
+  margin-bottom: 22px;
 }
-.gift-social a:hover {
-  background: var(--sage);
-  color: var(--white);
-  text-decoration: none;
-}
-.gift-social svg { width: 15px; height: 15px; fill: currentColor; }
 
 .iban-row {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   background: var(--cream);
   border-radius: var(--radius);

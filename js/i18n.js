@@ -13,7 +13,6 @@ const I18N = {
     "nav.dresscode": "Dress code",
     "nav.gift": "Regalo",
 
-    "hero.date": "Sabato, 25 Settembre 2027 · Gambara (BS), Italia",
     "hero.text.html": "Siamo davvero emozionati di avervi con noi per il nostro matrimonio! Che siate qui per l'amore, per ballare o semplicemente per la torta, vi siamo grati <strong>di cuore</strong> per essere con noi.",
     "hero.cta.rsvp": "Conferma la tua presenza",
     "hero.cta.calendar": "Aggiungi al calendario",
@@ -110,12 +109,10 @@ const I18N = {
 
     "gift.eyebrow": "Se proprio volete",
     "gift.heading": "Regalo di matrimonio",
-    "gift.p1": "Per noi la cosa più importante è condividere questa giornata con voi. La vostra presenza è il regalo più bello che potremmo desiderare e, davvero, non ci aspettiamo nulla di più.",
-    "gift.p2": "Se però vi fa piacere seguire un nostro desiderio, saremmo davvero felici se decideste di sostenere l'associazione <strong>\"Siamo al Verde\"</strong>, un progetto che promuove inclusione sociale, sostenibilità e solidarietà.",
-    "gift.p3": "Se desiderate farci un regalo, sentitevi completamente liberi di scegliere ciò che ritenete più adatto: qualunque gesto sarà per noi un pensiero prezioso e lo accoglieremo con gratitudine.",
-    "gift.card.title": "Siamo Al Verde",
-    "gift.card.sub": "Un orto sociale per coltivare ortaggi e relazioni — Brescia",
-    "gift.card.desc": "<p>\"Siamo al Verde\" è un progetto di orto comunitario nato nel 2014 dall'iniziativa di un gruppo di giovani appassionati di natura e impegnati nel sostegno alle persone più vulnerabili. L'orto si trova in Via San Zeno, a Brescia, all'interno di un ampio parco appartenente a una comunità che accoglie e accompagna persone con dipendenze croniche.</p><p>Qui gli ortaggi vengono coltivati in modo naturale, senza l'utilizzo di prodotti chimici, seguendo il ritmo delle stagioni. I volontari preparano regolarmente marmellate, creme e confezioni di erbe aromatiche. In autunno raccolgono le olive dagli ulivi abbandonati della città per produrre olio extravergine biologico. Il gruppo di volontari è composto da persone con esperienze di vita molto diverse, tra cui giovani e persone in situazioni di fragilità, come persone senza dimora, con disabilità psichiche o richiedenti asilo, segnalate da realtà del territorio. Due volte alla settimana si ritrovano per prendersi cura dell'orto.</p><p>Il contatto con la natura e il senso di comunità favoriscono il benessere personale e l'inclusione sociale. I prodotti coltivati e realizzati nell'orto vengono venduti e l'intero ricavato è destinato a finanziare piccoli progetti di solidarietà in Italia e nel mondo.</p><p>Tra le iniziative sostenute vi sono una casa per persone con disabilità in Perù, una scuola di falegnameria in Bolivia, il centro per bambini \"L'Albero delle Storie\" nel quartiere Scampia di Napoli e Mediterranea, la nave impegnata nelle operazioni di soccorso dei migranti nel Mar Mediterraneo.</p>",
+    "gift.p1": "Per noi la cosa più importante è condividere questa giornata con voi. La vostra presenza è già il regalo più bello che potremmo desiderare.",
+    "gift.p2": "Se c'è una cosa che abbiamo imparato in questi anni, è che il regalo più prezioso è la libertà: il tempo per viaggiare, per costruire i nostri progetti, per vivere con calma le cose che per noi contano davvero. Non ci manca nulla, e non abbiamo bisogno di altro.",
+    "gift.p3": "Detto questo, sappiamo che a qualcuno farebbe piacere lasciarci comunque un pensiero: per chi proprio ci tiene, ecco volentieri i nostri dati per un bonifico.",
+    "gift.card.holder": "Intestatario",
     "gift.iban.copy": "Copia",
     "gift.iban.copied": "Copiato ✓",
 
@@ -134,7 +131,6 @@ const I18N = {
     "nav.dresscode": "Código de vestimenta",
     "nav.gift": "Regalo",
 
-    "hero.date": "Sábado, 25 de septiembre de 2027 · Gambara (BS), Italia",
     "hero.text.html": "¡Estamos muy emocionados de que nos acompañen en nuestra boda! Ya sea que estén aquí por el amor, por bailar o simplemente por el pastel, les agradecemos <strong>de todo corazón</strong> que compartan este día tan especial con nosotros.",
     "hero.cta.rsvp": "Confirma tu asistencia",
     "hero.cta.calendar": "Añadir al calendario",
@@ -231,12 +227,10 @@ const I18N = {
 
     "gift.eyebrow": "Si de verdad queréis",
     "gift.heading": "Regalo de boda",
-    "gift.p1": "Para nosotros, lo más importante es poder compartir este día con ustedes. Su presencia es el mejor regalo que podríamos recibir y, de verdad, no esperamos nada más.",
-    "gift.p2": "Eso sí, si les hace ilusión seguir uno de nuestros deseos, nos haría muy felices que decidieran apoyar a la asociación <strong>\"Siamo al Verde\"</strong>, que promueve la inclusión social, la sostenibilidad y la solidaridad.",
-    "gift.p3": "Si aun así desean hacernos un regalo, siéntanse completamente libres de elegir lo que prefieran: cualquier detalle será recibido con muchísimo cariño y gratitud.",
-    "gift.card.title": "Siamo Al Verde",
-    "gift.card.sub": "Un huerto comunitario para cultivar hortalizas y relaciones — Brescia",
-    "gift.card.desc": "<p>\"Siamo al Verde\" es un proyecto de huerto comunitario que nació en 2014 por iniciativa de un grupo de jóvenes apasionados por la naturaleza y comprometidos con el apoyo a las personas más vulnerables. El huerto está situado en Via San Zeno, en Brescia, dentro de un amplio parque perteneciente a una comunidad que acoge y acompaña a personas con adicciones crónicas.</p><p>Aquí se cultivan hortalizas de forma natural, sin utilizar productos químicos y respetando el ritmo de las estaciones. Los voluntarios preparan regularmente mermeladas, cremas y paquetes de hierbas aromáticas. En otoño recogen las aceitunas de los olivos abandonados de la ciudad para producir aceite de oliva virgen extra ecológico. El grupo de voluntarios está formado por personas con trayectorias de vida muy diversas, entre ellas jóvenes y personas en situación de vulnerabilidad, como personas sin hogar, personas con discapacidad psíquica o solicitantes de asilo, derivadas por distintas entidades del territorio. Dos veces por semana se reúnen para cuidar del huerto.</p><p>El contacto con la naturaleza y el sentido de comunidad favorecen el bienestar personal y la inclusión social. Los productos cultivados y elaborados en el huerto se venden, y la totalidad de los beneficios se destina a financiar pequeños proyectos solidarios en Italia y en otros lugares del mundo.</p><p>Entre las iniciativas apoyadas se encuentran un hogar para personas con discapacidad en Perú, una escuela de carpintería en Bolivia, el centro infantil \"L'Albero delle Storie\" en el barrio de Scampia, en Nápoles, y Mediterranea, el barco dedicado a las operaciones de rescate de personas migrantes en el mar Mediterráneo.</p>",
+    "gift.p1": "Para nosotros, lo más importante es compartir este día con vosotros. Vuestra presencia ya es el regalo más bonito que podríamos desear.",
+    "gift.p2": "Si algo hemos aprendido estos años es que el regalo más valioso es la libertad: el tiempo para viajar, para construir nuestros proyectos, para vivir con calma las cosas que de verdad nos importan. No nos falta nada, y no necesitamos nada más.",
+    "gift.p3": "Dicho esto, sabemos que a alguno le hará ilusión dejarnos igualmente un detalle: para quien realmente quiera, aquí tenéis con mucho gusto nuestros datos para una transferencia.",
+    "gift.card.holder": "Titular",
     "gift.iban.copy": "Copiar",
     "gift.iban.copied": "Copiado ✓",
 
