@@ -423,11 +423,8 @@ img { max-width: 100%; display: block; }
 }
 
 .timeline-icon {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: var(--white);
-  border: 1px solid var(--wheat);
+  width: 44px;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -435,15 +432,26 @@ img { max-width: 100%; display: block; }
   flex-shrink: 0;
   position: relative;
   z-index: 1;
-  box-shadow: var(--shadow);
+}
+
+.timeline-icon::before {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--wheat-dark);
+  z-index: 0;
 }
 
 .timeline-icon svg {
-  width: 22px;
-  height: 22px;
+  position: relative;
+  z-index: 1;
+  width: 34px;
+  height: 34px;
   fill: none;
   stroke: currentColor;
-  stroke-width: 1.5;
+  stroke-width: 1.3;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
