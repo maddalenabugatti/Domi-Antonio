@@ -1,10 +1,16 @@
 /**
- * Riceve le risposte RSVP dal sito e le aggiunge come riga a questo
- * Google Sheet. Nessuna email viene inviata: le risposte vivono solo
- * nel foglio. Vedi SETUP.md per le istruzioni di installazione.
+ * Riceve le risposte RSVP dal sito e le aggiunge come riga al Google
+ * Sheet indicato da SHEET_ID. Nessuna email viene inviata: le risposte
+ * vivono solo nel foglio. Vedi SETUP.md per le istruzioni di installazione.
+ *
+ * Questo script è standalone (non "legato" al foglio tramite il menu
+ * Estensioni > Apps Script), quindi usa SpreadsheetApp.openById invece
+ * di getActiveSpreadsheet.
  */
+const SHEET_ID = "1RC_2zvzRObUtlUj0Ok9a6wqtc0mXMhheeQSPZkiff78";
+
 function doPost(e) {
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var sheet = SpreadsheetApp.openById(SHEET_ID).getActiveSheet();
 
   if (sheet.getLastRow() === 0) {
     sheet.appendRow([
