@@ -235,7 +235,7 @@ const I18N = {
     "gift.iban.copied": "Copiado ✓",
 
     "footer.heading": "Domenica & Antonio",
-    "footer.text": "Para dudas o preguntas, escribidnos cuando queráis:",
+    "footer.text": "Si tienen alguna duda o pregunta, escríbannos cuando quieran:",
     "footer.credit.html": "Hecho con 💛 por Domenica y Antonio",
   }
 };
