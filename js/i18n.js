@@ -109,10 +109,12 @@ const I18N = {
 
     "gift.eyebrow": "Se proprio volete",
     "gift.heading": "Regalo di matrimonio",
-    "gift.p1": "Per noi la cosa più importante è condividere questa giornata con voi. La vostra presenza è già il regalo più bello che potremmo desiderare.",
-    "gift.p2": "Se c'è una cosa che abbiamo imparato in questi anni, è che il regalo più prezioso è la libertà: il tempo per viaggiare, per costruire i nostri progetti, per vivere con calma le cose che per noi contano davvero. Non ci manca nulla, e non abbiamo bisogno di altro.",
-    "gift.p3": "Detto questo, sappiamo che a qualcuno farebbe piacere lasciarci comunque un pensiero: per chi proprio ci tiene, ecco volentieri i nostri dati per un bonifico.",
+    "gift.p1": "Per noi, la cosa più importante è poter condividere questa giornata con le persone che amiamo. La vostra presenza, il vostro affetto e il tempo trascorso insieme sono davvero il regalo più bello che potremmo desiderare.",
+    "gift.p2": "Se c'è una cosa che abbiamo imparato in questi anni, è che i momenti più preziosi sono quelli condivisi con le persone care. Per questo non abbiamo bisogno di nulla e, soprattutto, non vorremmo che nessuno si sentisse in dovere di farci un regalo: esserci, per noi, è già tutto.",
+    "gift.p3": "Sappiamo però che, nonostante queste parole, qualcuno potrebbe avere comunque piacere a lasciarci un piccolo pensiero. Per chi proprio ci tiene, abbiamo quindi lasciato qui sotto una possibilità, con la promessa che sarà accolta semplicemente come un gesto d'affetto e mai come qualcosa di atteso.",
+    "gift.p4": "La cosa che ci renderà davvero felici sarà festeggiare insieme a voi. ❤️",
     "gift.card.holder": "Intestatario",
+    "gift.card.currencies": "Potete inviare il bonifico in euro (€) o in pesos messicani (MXN).",
     "gift.iban.copy": "Copia",
     "gift.iban.copied": "Copiato ✓",
 
@@ -227,10 +229,12 @@ const I18N = {
 
     "gift.eyebrow": "Si de verdad queréis",
     "gift.heading": "Regalo de boda",
-    "gift.p1": "Para nosotros, lo más importante es compartir este día con vosotros. Vuestra presencia ya es el regalo más bonito que podríamos desear.",
-    "gift.p2": "Si algo hemos aprendido estos años es que el regalo más valioso es la libertad: el tiempo para viajar, para construir nuestros proyectos, para vivir con calma las cosas que de verdad nos importan. No nos falta nada, y no necesitamos nada más.",
-    "gift.p3": "Dicho esto, sabemos que a alguno le hará ilusión dejarnos igualmente un detalle: para quien realmente quiera, aquí tenéis con mucho gusto nuestros datos para una transferencia.",
+    "gift.p1": "Para nosotros, lo más importante es poder compartir este día con las personas que queremos. Su presencia, su cariño y el tiempo que podamos pasar juntos son, de verdad, el regalo más bonito que podríamos desear.",
+    "gift.p2": "Si algo hemos aprendido a lo largo de estos años, es que los momentos más valiosos son aquellos que compartimos con las personas que queremos. Por eso, no necesitamos nada y, sobre todo, no queremos que nadie se sienta comprometido a hacernos un regalo: que estén con nosotros ese día ya significa muchísimo.",
+    "gift.p3": "Dicho esto, sabemos que, aun después de leer estas palabras, a algunos de ustedes les hará ilusión dejarnos algún detalle. Para quienes de verdad quieran hacerlo, hemos dejado aquí abajo una opción, con la certeza de que la recibiremos simplemente como una muestra de cariño y nunca como algo que esperemos de ustedes.",
+    "gift.p4": "Lo que realmente nos hará felices será poder celebrar, reír, brindar y guardar juntos los recuerdos de este día tan especial. Su presencia es, y siempre será, el mejor regalo para nosotros. ❤️",
     "gift.card.holder": "Titular",
+    "gift.card.currencies": "Podéis enviar la transferencia en euros (€) o en pesos mexicanos (MXN).",
     "gift.iban.copy": "Copiar",
     "gift.iban.copied": "Copiado ✓",
 
