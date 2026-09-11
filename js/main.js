@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var WEDDING_DATE = new Date("2027-09-25T14:00:00+02:00");
+  var WEDDING_DATE = new Date("2027-09-25T13:30:00+02:00");
   var CURRENT_LANG_KEY = "wedding-lang";
 
   /* ---------------- language ---------------- */
@@ -110,7 +110,7 @@
     if (!btn) return;
 
     btn.addEventListener("click", function () {
-      var start = "20270925T120000Z";
+      var start = "20270925T113000Z";
       var end = "20270925T230000Z";
       var ics = [
         "BEGIN:VCALENDAR",
