@@ -13,7 +13,7 @@ const I18N = {
     "nav.dresscode": "Dress code",
     "nav.gift": "Regalo",
 
-    "hero.text.html": "Siamo davvero emozionati di avervi con noi per il nostro matrimonio! Che siate qui per l'amore, per ballare o semplicemente per la torta, vi siamo grati <strong>di cuore</strong> per essere con noi.",
+    "hero.text.html": "Siamo davvero emozionati di avervi con noi per il nostro matrimonio! Che siate qui per l'amore, per ballare o semplicemente per la torta, vi ringraziamo <strong>di cuore</strong> per essere con noi.",
     "hero.cta.rsvp": "Conferma la tua presenza",
     "hero.cta.calendar": "Aggiungi al calendario",
 
@@ -56,7 +56,7 @@ const I18N = {
     "rsvp.guests": "In quanti siete (incluso te)?",
     "rsvp.extraGuests": "Nome e cognome delle altre persone",
     "rsvp.extraGuests.placeholder": "Es. Mario Rossi, Giulia Bianchi",
-    "rsvp.children": "Ci sono bambini tra gli invitati? Se sì, quanti e di che età?",
+    "rsvp.children": "Ci sono bambini tra chi parteciperà? Se sì, quanti e di che età?",
     "rsvp.allergies": "Avete allergie o intolleranze alimentari?",
     "rsvp.notes": "Altre esigenze, richieste o comunicazioni?",
     "rsvp.submit": "Invia",
@@ -66,7 +66,7 @@ const I18N = {
 
     "travel.eyebrow": "Organizza il viaggio",
     "travel.heading": "Come arrivare",
-    "travel.intro": "Se avete bisogno di aiuto per trovare hotel o un mezzo di trasporto non esitate a contattarci. Qui trovate qualche suggerimento: sentitevi liberi di organizzare il viaggio come preferite o di usare Google Maps come guida.",
+    "travel.intro": "Se avete bisogno di aiuto per trovare hotel o un mezzo di trasporto non esitate a contattarci. Qui trovate qualche suggerimento: potete organizzare il viaggio come preferite o usare Google Maps come guida.",
     "travel.leg1.title": "Da Milano a Brescia",
     "travel.leg2.title": "Da Brescia alla location",
     "travel.tab.car": "In auto",
@@ -77,7 +77,7 @@ const I18N = {
     "travel.bus.html": "<p>Ci sono dei bus che partono da Milano Lampugnano. Principali compagnie: <a href=\"https://www.flixbus.it/\" target=\"_blank\" rel=\"noopener\">Flixbus</a>, <a href=\"https://www.itabus.it/\" target=\"_blank\" rel=\"noopener\">Itabus</a>.</p><h4>Da Milano Orio al Serio</h4><p>La stazione per la partenza dei bus è vicina alla stazione centrale dei treni di Bergamo.</p><h4>Da Milano Linate</h4><p>La stazione per la partenza dei bus è Milano-Lampugnano.</p><h4>Da Milano Malpensa</h4><p>La stazione per la partenza dei bus è Milano-Lampugnano. Flixbus ha dei bus diretti dall'aeroporto.</p>",
     "travel.train.html": "<p>Compagnia dei treni statali: <a href=\"https://www.trenitalia.com/\" target=\"_blank\" rel=\"noopener\">Trenitalia</a>.</p><h4>Da Milano Orio al Serio</h4><p>Ci sono treni diretti per Brescia dalla stazione centrale di Bergamo.</p><h4>Da Milano Linate</h4><p>Ci sono treni regionali diretti per Brescia da Milano-Centrale ogni ora.</p><h4>Da Milano Malpensa</h4><p>Ci sono treni regionali diretti per Brescia da Milano-Centrale ogni ora.</p>",
     "travel.leg2.car.html": "<p>Dal centro di Brescia sono circa 40 km. Se avete bisogno di un passaggio non esitate a farcelo sapere durante l'iscrizione oppure <a href=\"mailto:domi.bug@libero.it\">contattandoci</a>.</p>",
-    "travel.leg2.bus.html": "<p>È possibile raggiungere Gambara anche con l'autobus. Partenza dalla stazione di Brescia, autobus diretto per Gambara (linee <a href=\"https://brescia.arriva.it/\" target=\"_blank\" rel=\"noopener\">Arriva/SIA</a>). Durata del viaggio: circa 1 ora. Arrivati a Gambara, la Tenuta dista pochi minuti in taxi oppure circa 30 minuti a piedi.</p>",
+    "travel.leg2.bus.html": "<p>È possibile raggiungere Gambara anche con l'autobus. Partenza dalla stazione di Brescia, autobus diretto per Gambara (linee <a href=\"https://brescia.arriva.it/\" target=\"_blank\" rel=\"noopener\">Arriva/SIA</a>). Durata del viaggio: circa 1 ora. Una volta a Gambara, la Tenuta dista pochi minuti in taxi oppure circa 30 minuti a piedi.</p>",
 
     "stay.eyebrow": "Dove dormire",
     "stay.heading": "Dove alloggiare",
@@ -104,9 +104,9 @@ const I18N = {
 
     "dresscode.eyebrow": "Come vestirsi",
     "dresscode.heading": "Dress code",
-    "dresscode.p1": "Per il nostro matrimonio non c'è alcun dress code. La cosa più importante per noi è che vi sentiate a vostro agio e possiate esprimere voi stessi, indossando ciò che vi fa sentire bene.",
+    "dresscode.p1": "Per il nostro matrimonio non c'è alcun dress code. La cosa più importante per noi è che vi sentiate a vostro agio e possiate esprimervi con autenticità, indossando ciò che vi fa sentire bene.",
     "dresscode.p2": "Se vi va di condividere anche il nostro desiderio di vivere questa giornata in modo più sostenibile, vi invitiamo a non acquistare un abito nuovo per l'occasione.",
-    "dresscode.p3": "Sentitevi liberi di scegliere qualcosa che avete già nell'armadio, di scovare un bellissimo capo di seconda mano oppure di dare spazio alla creatività con abiti o accessori realizzati a partire da tessuti riciclati. La vostra presenza è ciò che renderà speciale questa giornata, non ciò che indosserete.",
+    "dresscode.p3": "Potete scegliere qualcosa che avete già nell'armadio, scovare un bellissimo capo di seconda mano oppure dare spazio alla creatività con abiti o accessori realizzati a partire da tessuti riciclati. La vostra presenza è ciò che renderà speciale questa giornata, non ciò che indosserete.",
 
     "gift.eyebrow": "Se proprio volete",
     "gift.heading": "Regalo di matrimonio",
