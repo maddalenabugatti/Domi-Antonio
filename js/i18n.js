@@ -56,7 +56,7 @@ const I18N = {
     "rsvp.guests": "In quanti siete (incluso te)?",
     "rsvp.extraGuests": "Nome e cognome delle altre persone",
     "rsvp.extraGuests.placeholder": "Es. Mario Rossi, Giulia Bianchi",
-    "rsvp.children": "Ci sono bambini tra chi parteciperà? Se sì, quanti e di che età?",
+    "rsvp.children": "Ci sono bambini o bambine tra chi parteciperà? Se sì, quanti e di che età?",
     "rsvp.allergies": "Avete allergie o intolleranze alimentari?",
     "rsvp.notes": "Altre esigenze, richieste o comunicazioni?",
     "rsvp.submit": "Invia",
@@ -175,7 +175,7 @@ const I18N = {
     "rsvp.guests": "¿Cuántos de ustedes son?",
     "rsvp.extraGuests": "Nombre y apellido de las demás personas",
     "rsvp.extraGuests.placeholder": "Ej. Mario Rossi, Giulia Bianchi",
-    "rsvp.children": "¿Hay niños entre los invitados? En caso afirmativo, ¿cuántos y de qué edad? Habrá una o varias niñeras, según el número de niños que asistan, para cuidar de ellos",
+    "rsvp.children": "¿Hay niños o niñas entre los invitados? En caso afirmativo, ¿cuántos y de qué edad? Habrá una o varias niñeras, según el número de niños o niñas que asistan, para cuidar de ellos",
     "rsvp.allergies": "¿Tienes alergias?",
     "rsvp.notes": "¿Tiene alguna otra necesidad, solicitud o comunicación?",
     "rsvp.submit": "Enviar",
@@ -185,7 +185,7 @@ const I18N = {
 
     "travel.eyebrow": "Organiza tu viaje",
     "travel.heading": "Cómo llegar",
-    "travel.intro": "Si necesitan ayuda para encontrar un hotel o un medio de transporte, no duden en ponerse en contacto con nosotros. A continuación encontrarán algunas sugerencias para su viaje. Siéntanse libres de organizar su itinerario como prefieran o de utilizar Google Maps como guía.",
+    "travel.intro": "Si necesitan ayuda para encontrar un hotel o un medio de transporte, no duden en ponerse en contacto con nosotros. A continuación encontrarán algunas sugerencias para su viaje. Pueden organizar su itinerario como prefieran o utilizar Google Maps como guía.",
     "travel.leg1.title": "De Milán a Brescia",
     "travel.leg2.title": "De Brescia al lugar de la boda",
     "travel.tab.car": "En coche",
@@ -223,9 +223,9 @@ const I18N = {
 
     "dresscode.eyebrow": "Cómo vestir",
     "dresscode.heading": "Código de vestimenta",
-    "dresscode.p1": "Para nuestra boda no hay un código de vestimenta. Lo más importante para nosotros es que se sientan cómodos y puedan expresar su personalidad, usando aquello con lo que mejor se sientan.",
+    "dresscode.p1": "Para nuestra boda no hay un código de vestimenta. Lo más importante para nosotros es que se sientan a gusto y puedan expresar su personalidad, usando aquello con lo que mejor se sientan.",
     "dresscode.p2": "Si además les gusta la idea de compartir nuestro deseo de celebrar este día de una manera un poco más sostenible, los invitamos a no comprar ropa nueva para la ocasión.",
-    "dresscode.p3": "Siéntanse libres de usar algo que ya tengan en su clóset, encontrar una linda prenda de segunda mano o, si les inspira, dejar volar su creatividad con ropa o accesorios hechos a partir de telas recicladas. Lo que realmente hará especial este día será su presencia, no lo que lleven puesto.",
+    "dresscode.p3": "Pueden usar algo que ya tengan en su clóset, encontrar una linda prenda de segunda mano o, si les inspira, dejar volar su creatividad con ropa o accesorios hechos a partir de telas recicladas. Lo que realmente hará especial este día será su presencia, no lo que lleven puesto.",
 
     "gift.eyebrow": "Si de verdad queréis",
     "gift.heading": "Regalo de boda",
