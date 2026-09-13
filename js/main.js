@@ -232,9 +232,20 @@
       }
 
       var data = new FormData(form);
+      var firstname = (data.get("firstname") || "").trim();
+      var lastname = (data.get("lastname") || "").trim();
+
+      if (!firstname || !lastname) {
+        status.textContent = dict["rsvp.required"];
+        status.className = "form-status error";
+        var missingField = document.getElementById(firstname ? "lastname" : "firstname");
+        if (missingField) missingField.focus();
+        return;
+      }
+
       var payload = {
-        firstname: data.get("firstname") || "",
-        lastname: data.get("lastname") || "",
+        firstname: firstname,
+        lastname: lastname,
         email: data.get("email") || "",
         attending: data.get("attending") || "",
         guests: data.get("guests") || "",
