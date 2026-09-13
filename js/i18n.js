@@ -82,7 +82,7 @@ const I18N = {
 
     "stay.eyebrow": "Dove dormire",
     "stay.heading": "Dove alloggiare",
-    "stay.intro": "Questi sono solo alcuni suggerimenti pensati per aiutarvi a orientarvi: potete comunque cercare liberamente su <a href=\"https://www.booking.com/\" target=\"_blank\" rel=\"noopener\">Booking</a>, Google o il vostro sito preferito, dove trovate molte altre opzioni.",
+    "stay.intro": "Questi sono solo alcuni suggerimenti pensati per aiutarvi a orientarvi: potete comunque cercare liberamente su <a href=\"https://www.booking.com/\" target=\"_blank\" rel=\"noopener\">Booking</a>, <a href=\"https://www.airbnb.it/\" target=\"_blank\" rel=\"noopener\">Airbnb</a>, Google o il vostro sito preferito, dove trovate molte altre opzioni. Se invece avete bisogno di essere ospitati, non esitate a <a href=\"mailto:domi.bug@libero.it\">contattarci</a>.",
     "stay.tier.high": "Fascia alta",
     "stay.tier.low": "Fascia economica",
     "stay.link": "Sito ufficiale ↗",
@@ -202,7 +202,7 @@ const I18N = {
 
     "stay.eyebrow": "Dónde dormir",
     "stay.heading": "Dónde alojarse",
-    "stay.intro": "Estas son solo algunas sugerencias para orientaros: podéis buscar libremente en <a href=\"https://www.booking.com/\" target=\"_blank\" rel=\"noopener\">Booking</a>, Google o vuestro sitio favorito, donde encontraréis muchas más opciones.",
+    "stay.intro": "Estas son solo algunas sugerencias para orientaros: podéis buscar libremente en <a href=\"https://www.booking.com/\" target=\"_blank\" rel=\"noopener\">Booking</a>, <a href=\"https://www.airbnb.es/\" target=\"_blank\" rel=\"noopener\">Airbnb</a>, Google o vuestro sitio favorito, donde encontraréis muchas más opciones. Si en cambio necesitáis alojamiento, no dudéis en <a href=\"mailto:antonio_ga92@hotmail.com\">contactarnos</a>.",
     "stay.tier.high": "Gama alta",
     "stay.tier.low": "Gama económica",
     "stay.link": "Sitio web ↗",
