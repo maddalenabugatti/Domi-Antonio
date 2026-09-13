@@ -64,6 +64,7 @@ const I18N = {
     "rsvp.success": "Grazie! La tua risposta è stata registrata. Non vediamo l'ora di festeggiare con te 💛",
     "rsvp.error": "Ops, qualcosa è andato storto. Riprova tra poco o scrivici direttamente via email.",
     "rsvp.required": "Inserisci nome e cognome per continuare.",
+    "rsvp.required.email": "Inserisci un indirizzo email valido per continuare.",
 
     "travel.eyebrow": "Organizza il viaggio",
     "travel.heading": "Come arrivare",
@@ -184,6 +185,7 @@ const I18N = {
     "rsvp.success": "¡Gracias! Tu respuesta ha sido registrada. Estamos deseando celebrar contigo 💛",
     "rsvp.error": "Ups, algo ha salido mal. Inténtalo de nuevo en un momento o escríbenos directamente por correo.",
     "rsvp.required": "Introduce nombre y apellido para continuar.",
+    "rsvp.required.email": "Introduce una dirección de correo electrónico válida para continuar.",
 
     "travel.eyebrow": "Organiza tu viaje",
     "travel.heading": "Cómo llegar",

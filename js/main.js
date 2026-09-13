@@ -234,6 +234,7 @@
       var data = new FormData(form);
       var firstname = (data.get("firstname") || "").trim();
       var lastname = (data.get("lastname") || "").trim();
+      var email = (data.get("email") || "").trim();
 
       if (!firstname || !lastname) {
         status.textContent = dict["rsvp.required"];
@@ -243,10 +244,18 @@
         return;
       }
 
+      if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        status.textContent = dict["rsvp.required.email"];
+        status.className = "form-status error";
+        var emailField = document.getElementById("email");
+        if (emailField) emailField.focus();
+        return;
+      }
+
       var payload = {
         firstname: firstname,
         lastname: lastname,
-        email: data.get("email") || "",
+        email: email,
         attending: data.get("attending") || "",
         guests: data.get("guests") || "",
         extraGuestNames: data.get("extraGuestNames") || "",
