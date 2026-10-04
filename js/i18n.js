@@ -157,7 +157,7 @@ const I18N = {
     "program.heading": "Programa",
     "program.1": "Llegada de los invitados",
     "program.2": "Cerimonia",
-    "program.3": "Aperitivo-cena",
+    "program.3": "Aperi-cena",
     "program.4": "Bailes populares",
     "program.5": "Pastel",
     "program.6": "Sesión de DJ",
